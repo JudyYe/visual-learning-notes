@@ -77,8 +77,31 @@ In this case, we do not need much data
             - rareness - exemplar svm - weightness -> reareness / importance
     + How to make *alignment / warping* robust
         * HOG like scene parsing
+        * eg. transfer segmentation annotation - (just retrieve best match by some metric, and then wraping their annotations)
+    + use primitives
+        * analogous: translation
+        * eg. normal estimation
+    + understand simple first
+        * eg. pose detection of pitching video. Deva, Zisserman, 2004
+        * eg. scene sketch understanding
+- **Key idea**: "Maybe when u think your deep learnign works, it just can memorize large enought dataset "
 
-- learn some pattern
+- learn some pattern(This course focus)
+    + move from CNN
+        * learn manifold, parameter function
+
+
+## Some Important  data observations
+
+## distribution
+- category
+    + uniform vs long-tail :  LabelMe vs Imagnet
+    + `Open Problem`: long-tail data, not forget about the tail
+
+- Bias
+    + From Search engine: eg. cup handle / viewpoint
+    + eg. 'Name that dataset'
+    + eg. Mixing datasets
 
 
 
