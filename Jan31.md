@@ -20,5 +20,22 @@
     + some are probabilistic
     + conv net is just one instance
 
-##conv net
-...
+##Deep NN 101
+
+... blah blah ...
+... blah blah ...
+
+- vanishing gradients
+    + why always vanish instead of exploding? 
+        * activation
+- activation
+    +  sigmoid, 
+        *  not 0-center - zig-zag
+        *  saturated end
+    +  Relu
+        *  does not saturate
+        *  converges faster! 6 *
+        *  BUT not 0-centered
+        *  some die -> sparse but some die
+
+
