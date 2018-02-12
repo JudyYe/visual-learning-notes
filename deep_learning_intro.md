@@ -1,5 +1,5 @@
 # Deep Learning(Intro)
-`Jan31` `Feb5` `Feb7`
+`Jan31` `Feb5` `Feb7` `Feb12`
 ## detection history
 - HOG based, 0.1        , 2005
 - DPM,       0.2->0.35  , 07-12
@@ -72,3 +72,41 @@
             - 0.5 is normal; but in action classification, people will use 0.9 (because optical flow are easy to overfit); Resnet: no dropout
         * weight decay
         * data augmentation
+
+## case study
+- LeNet
+- AlexNet
+    + relu
+- VGG
+    + smaller kernel is better
+    + state-wise training OR BN - they are for the same purpose
+- `TREND` of architecture
+    + deeper
+- Resnet
+    + motivation: not even overfit : trainign error increases
+        * optimization getting harder: vanishing gradient
+        * `hard?????` to optimize `define hard?????`
+        * at least it SHOULD give us identity function.
+        * hard to learn identity, but easy to learn zero function
+        * learn residual: "how should i learn the change of input"
+
+## AWS intro
+chmod 400 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
