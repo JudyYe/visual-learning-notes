@@ -1,7 +1,7 @@
 # Stefan Lee
 `[website](https://www.cc.gatech.edu/~slee3191/)` `Feb 5th` `VASC`
 
-##visual dialog
+## visual dialog
 - agent & human talking
 - formulate
     + image I
