@@ -89,10 +89,16 @@
         * at least it SHOULD give us identity function.
         * hard to learn identity, but easy to learn zero function
         * learn residual: "how should i learn the change of input"
+    + Why this thing works? (only Hyposith)
+        * pre-conditioned better - easier to learn 0 than identity function
+        * vanishing gradient - at least (1+something)
+        * ensembling effect
+        * resnet is a good start to implement - easy and clean
 
 ## AWS intro
 chmod 400 
-
+root will be deleted after termination
+volume: first one
 
 
 
