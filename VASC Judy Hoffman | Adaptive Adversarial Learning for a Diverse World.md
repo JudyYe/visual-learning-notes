@@ -1,5 +1,5 @@
 # Adaptive adversarial learnign for a Diverse World
-`[website](http://people.eecs.berkeley.edu/~pulkitag/)` `Feb 27th` `VASC`` Domain Adaptation`
+`[website](https://people.eecs.berkeley.edu/~jhoffman/)` `Mar 5h` `VASC`` Domain Adaptation`
 
 ## Motivation
 - Benchmark Performance
@@ -39,4 +39,9 @@
     + pariwise similarity
     + minimize the entropy of the similarity vector
 
-
+## Future work
+- continuous learning: even for fixed environment, it may vary a lot 
+    + even you can generalized right now, we do not forget what we've learnt
+- uncertainty estimation
+- interactive learning
+    + active learning, learning activietly?
