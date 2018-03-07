@@ -56,7 +56,7 @@
         * $\sum \phi(y_i) + \sum \varphi(y_i, y_j)$ __maybe we can revisist it using graph?????__
         * pay penalty only if the adjacency pixel looks similar
         * NP-hard
-        * with __right potentials__, feasible __????????__
+        * with __right binary potentials__, feasible __????????__
     + How to construct graph
         * graph over super pixels - ocassinally appear
         * adjacencnt - almost disappear
@@ -75,4 +75,10 @@
             - what if we encode location into hyper column? - only 2 channels, tend to ignore them.
             - compromise :  5 * 5 coarse grid clf
 
+## Mask RCNN
+- Faster Rcnn with FCN(Forground background seg) on ROIs.
+- ROI Alignment
+    + will change bbox slightly, which cause pixel alignment problem
+    + do linear interpolation
+    + supervision from both: bbox + seg
 
