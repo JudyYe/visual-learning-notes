@@ -13,6 +13,8 @@
 - far far away
 - SOA: detecting kick ball-30%
 
+# Action Recognition  
+
 ## what is action/ activity
 - is action just movement?
     + agent + __goal + intention__ + target state + etc
@@ -37,5 +39,48 @@
 
 ## action work
 - two - stream VGG
+    + spatial + temporal
+    + spatial - pretrain on imagenet 
+    + temporal: optical flow, trajectory, 9k video is not enough
+        * doom to overfit
+        * combining dataset
+        * very high dropout rate 0.9 
+        * self -supervised
+        * (fixing layer)
+        * (data augument)
+        Best Practice - dropout is better than reducing param number
+- 2D- 3D convolution
+    + 3d conv: move along depth as well.(instead of all in depth dimension)
+    + main problem compared to 2-stream:
+        * we cannot pretrain
+        * we want to init 3D with 2D
 
-# Action Recognition  
+- __State-of-art model__ i3D
+    + introduce a large dataset:
+        * KINETICS, 400 * 400 video, biggest one
+        * init 3D by 2D
+        * UCF-101 97.8
+
+`sports 1M is not a good dataset to initizaize`
+`LSTM cannot really restore long term memory, 2 hops, 3hops is farthest`
+
+- action~transformation
+    + action  = movement + goals
+    + actions = transforming the enviroment according to agent's goals
+    + features before * actions = feature after
+    + training
+        * precondition, effect, model transformation
+        * ?? what are precondition??
+    + inference
+        * find precondition, effect
+        * max(all transformation)
+    + cross category generalization
+        * long jump, high jump
+    + approach
+        * siamese
+
+- non-local neural network
+    + 
+
+
+
