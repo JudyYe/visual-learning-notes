@@ -80,7 +80,6 @@
         * siamese
 
 - non-local neural network
-    + 
 
 
 
