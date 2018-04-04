@@ -37,6 +37,8 @@ they try to model in the past
     + dramatically reduce the search space
 
 ## context in deep learning
+`Shrivastava, Abhinav, and Abhinav Gupta. "Contextual Priming and Feedback for Faster R-CNN." ECCV, 2016.`
+
 - where can i get the feedback? (what layer that you know it is office desk?)
     + segmentation
         * compact, easy to represent
@@ -44,9 +46,19 @@ they try to model in the past
 - where should i put my feed back?
 
 
+## context as knowledge graph
+`Marino, Kenneth, Ruslan Salakhutdinov, and Abhinav Gupta. "The more you know: Using knowledge graphs for image classification." arXiv preprint arXiv:1612.04844 (2016).`
 
+`Li, Ruiyu, et al. "Situation recognition with graph neural networks." arXiv preprint arXiv:1708.04320 (2017).`
 
-
+- relationship graph.  
+    + eg. easy to detect skateborad -> deduce the person is wearing jeans instead of pants
+    + pass message among node (belief propagation)
+- latent variable representing node
+- initialize the latent variable?
+    + faster-rcnn
+    + fc7 feature vector
+- slowly expand the nodes, instead of see the graph in one shot.
 
 
 
