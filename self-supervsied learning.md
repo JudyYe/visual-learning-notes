@@ -63,5 +63,42 @@ perspective of ML
     + inpainting
     
 - from video
+- invariance aspect
+    + multitask
+    + transitivity in invariance.
+-  from audio
+    +  predicting sound
+        *  altough lowest performance
+        *  a complementary to image-based method
+-  from 3D
+    +  depth
+-  from action
+    +  ego motion
+    +  robotics
+        *  instance level image retrieved task: __beat Imagenet!!__
 
+# one problem of self-supervised approaches
+- how to evaluate
+    + some learn sth useful, but not as good as ImageNet
+    + we are playing the games of imagenet
+    + but the representation learning is broader than semantic task(e.g. detection, segmentation)
+    + scene recognition / normal estimation
+
+## big phylosiphy discussion: does more data even means better representation?
+- questions
+    + what happens at 100x?
+    + plateauing effect?
+    + data vs model capacity
+- answer1: empirical study
+    + JFT-300M dataset - google
+        * unknow recall
+        * heavily long-tailed
+        * 20% noise
+    + Imagenet -> JFT-300M
+        * 4 epcoh 1.5months, 
+        * not so much improvement, on 
+    + datasize vs performance: log-linear
+        * large scale data plays crucial role here.
+    + deep vs performance
+    + We need both model and data
 
