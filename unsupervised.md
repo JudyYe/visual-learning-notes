@@ -11,7 +11,7 @@
 
 ## method
 - stacked autoencoder
-    + too much shortcut
+    + too much shortcut the model can learn
 - denoising AE
-- AE basically learn a manifold, but suffer from multiple correspondence / reconstruction
+- AE basically learn a manifold, but suffer from multiple correspondence / reconstruction, not aligned with semantic meaning
     + -->> VAE
