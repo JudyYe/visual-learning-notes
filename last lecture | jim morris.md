@@ -21,4 +21,5 @@ help people with speaking problemMLD foundermoney raiserpractic > genius
 
 ## Herbert Simon: 20th centruty Galileo
 - boundary rational
-- "needs for dignity and for purpose"
+- AI: "needs for dignity and for purpose"
+- 

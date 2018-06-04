@@ -56,5 +56,10 @@
     + lean a shared representation to link the two views
 
 
-## challange
-
+what is the right represenation of action?
+action: AI complete. acting like human, understanding environment, 
+    `still not well defined`
+in what degree is action recognition a vision problem?
+    what if we block the vision, and have only text
+how applicable can this be?
+    real time?
